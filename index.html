@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator JS</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div class="calcContainer">
+        <div id="calcScreen"></div>
+        <div class="calcButtons">
+            <button value="1" onclick="pressNum(this)">1</button>
+            <button value="2" onclick="pressNum(this)">2</button>
+            <button value="3" onclick="pressNum(this)">3</button>
+
+            <button value="+" onclick="pressOperator(this)">+</button>
+
+            <button value="4" onclick="pressNum(this)">4</button>
+            <button value="5" onclick="pressNum(this)">5</button>
+            <button value="6" onclick="pressNum(this)">6</button>
+
+            <button value="-" onclick="pressOperator(this)">-</button>
+
+            <button value="7" onclick="pressNum(this)">7</button>
+            <button value="8" onclick="pressNum(this)">8</button>
+            <button value="9" onclick="pressNum(this)">9</button>
+
+            <button value="*" onclick="pressOperator(this)">*</button>
+            <button value='.' onclick="pressNum(this)">.</button>
+
+            <button value="0" onclick="pressNum(this)">0</button>
+            <button value ='' onclick="clearDisplay()">C</button>
+            <button value="/" onclick="pressOperator(this)">/</button>
+            <button value="=" onclick="pressEqual()">=</button>
+        </div>
+    </div>
+  <footer>
+        <script src='main.js'></script>
+    </footer>
+</body>
+</html>

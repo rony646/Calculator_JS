@@ -1,0 +1,87 @@
+/* General */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    min-height: 100vh;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#093dad,#092088);
+    background-size: 100vh;
+    color: black;
+}
+
+/* Load Screen Font */
+
+@font-face {
+    font-family: digital;
+    src: url('fonts/DS-DIGI.woff');
+}
+
+/* Layout */
+
+.calcContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35em;
+    width: 25em;
+    background-color: #2b2a2a;
+    border-radius: 30px;
+}
+
+#calcScreen {
+    font-family: digital;
+    font-size: 4em;
+    text-align: right;
+    overflow: hidden;
+    background-color: #c9c9c9;
+    color: #2b2a2a;
+    margin-top: 45px;
+    width: 85%;
+    height: 12%;
+    padding: 5px;
+    border-radius: 12px;
+    border: 5px solid #c05110;
+}
+
+/* Buttons Config */
+
+.calcButtons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 65%;
+    width: 85%;
+}
+
+.calcButtons button:nth-child(17) {
+    grid-column: 1 / span 4;
+}
+
+.calcButtons button:nth-child(15) {
+    background-color: #c05110;
+}
+
+button {
+    margin: 10px;
+    background-color: #d1d0d0;
+    color: rgb(31, 31, 31);
+    font-size: 1.4em;
+    font-weight: 500;
+    outline: none;
+    transition: 100ms;
+    border-radius: 1em;
+    border: none;
+}
+
+button:active {
+    border: 2px solid black;
+    box-shadow: 5px 3px 10px black;
+}
