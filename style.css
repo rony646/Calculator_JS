@@ -8,11 +8,19 @@ body, html {
 }
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#093dad,#092088);
     background-size: 100vh;
     color: black;
+}
+
+#openMenu {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    margin: -40px 90vw 0px 0px;
 }
 
 /* Load Screen Font */
@@ -88,9 +96,18 @@ button:active {
 
 /* Mobile Stlye */
 
-@media (max-width: 760px) {
+@media (max-width: 760px){
     .calcContainer {
+        position: absolute;
+        margin-top: 0px;
         height: 30em;
         width: 18em;
+    }
+
+    #openMenu {
+        padding-bottom: 185%;
+        height: 50px;
+        width: 50px;
+        margin: 0px 75vw 0px 0px;
     }
 }
