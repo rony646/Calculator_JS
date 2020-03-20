@@ -105,6 +105,7 @@ button:active {
     }
 
     #openMenu {
+        padding-top: 10px;
         padding-bottom: 185%;
         height: 50px;
         width: 50px;
