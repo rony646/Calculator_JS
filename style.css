@@ -85,3 +85,12 @@ button:active {
     border: 2px solid black;
     box-shadow: 5px 3px 10px black;
 }
+
+/* Mobile Stlye */
+
+@media (max-width: 760px) {
+    .calcContainer {
+        height: 30em;
+        width: 18em;
+    }
+}
