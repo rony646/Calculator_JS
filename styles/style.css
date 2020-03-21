@@ -158,10 +158,14 @@ button:active {
     #closeMenu {
         display: none !important;
     }
+}
 
-    body .meuOpen {
-        display: none !important; 
-        position: relative !important;
-        background-color: red;
+@media(max-width: 1024px) {
+    #openMenu {
+        display: none;
+    }
+
+    #closeMenu {
+        display: none !important;
     }
 }
