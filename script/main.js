@@ -3,6 +3,7 @@ var button = document.querySelectorAll('button')
 var terms = [undefined, undefined, undefined]; // Terms of the operation like: "2 + 2"
 let num = ''; // Starts the calculator with no value;
 
+// ---------------------------//
 
 // This function gets the typed number and stores it in the "num" variable
 
