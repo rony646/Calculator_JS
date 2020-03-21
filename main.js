@@ -48,7 +48,7 @@ function pressEqual() {
             if(result === NaN | result === Infinity) {
                 showDisplay('Invalid Operation');
             }else {
-                showDisplay(result)
+                showDisplay(result.toFixed(2))
             }
             break;
         
@@ -57,7 +57,7 @@ function pressEqual() {
             if(result === NaN | result === Infinity) {
                 showDisplay('Invalid Operation')
             } else {
-                showDisplay(result);
+                showDisplay(result.toFixed(2));
             }
             break;
         
@@ -66,7 +66,7 @@ function pressEqual() {
             if(result === NaN | result === Infinity) {
                 showDisplay('Invalid Operation')
             } else {
-                showDisplay(result);
+                showDisplay(result.toFixed(2));
             }
             break;
         
@@ -75,7 +75,7 @@ function pressEqual() {
             if(result === NaN | result === Infinity) {
                 showDisplay('Invalid Operation')
             } else {
-                showDisplay(result);
+                showDisplay(result.toFixed(2));
             }
             break;
 

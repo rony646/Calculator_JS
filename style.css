@@ -17,11 +17,14 @@ body {
 }
 
 #openMenu {
+    display: block;
+    margin: -590px 90vw 0px 0px;
     height: 65px;
     width: 65px;
-    position: relative;
-    margin: -40px 90vw 0px 0px;
+    cursor: pointer;
 }
+
+
 
 /* Load Screen Font */
 
@@ -34,6 +37,7 @@ body {
 
 .calcContainer {
     display: flex;
+    position: absolute;
     flex-direction: column;
     align-items: center;
     height: 35em;
@@ -106,9 +110,10 @@ button:active {
 
     #openMenu {
         padding-top: 10px;
-        padding-bottom: 185%;
+        padding-bottom: 185% !important;
         height: 50px;
         width: 50px;
         margin: 0px 75vw 0px 0px;
     }
+    
 }
